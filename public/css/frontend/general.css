@@ -1,0 +1,7 @@
+:root {
+    --main-color: #f81b02;
+}
+
+header .nav-link {
+    color: var(--main-color) !important;
+}

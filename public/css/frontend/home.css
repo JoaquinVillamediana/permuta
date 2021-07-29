@@ -1,0 +1,33 @@
+section.slider {
+    position: relative;
+}
+
+section.slider img.slide {
+    height: 80vh;
+    object-fit: cover;
+    -webkit-filter: brightness(0.4) blur(5px) grayscale(60%);
+    filter: brightness(0.4) blur(5px) grayscale(60%);
+}
+
+section.slider .container-fluid {
+    padding: 0;
+}
+
+section.slider .title-block {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+section.slider .title-block h1 {
+    font-size: 75px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+section.slider .title-block p.desc {
+    color: var(--main-color);
+}
