@@ -16,6 +16,9 @@
     <script defer src="{{ asset('js/app.js') }}" defer></script>
     <script defer src="{{asset('/js/functions.js')}}"></script>
 
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/b7ae7948cb.js" crossorigin="anonymous"></script>
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="{{ asset('/assets/css/fonts/nunito.css') }}">

@@ -1,0 +1,140 @@
+
+#data{
+	/* background-color:#f5973d; */
+	border-radius:15px;
+	padding:20px;
+	/* box-shadow: 0px 0 30px 10px orange; */
+	border:1px #f5973d; 
+
+}
+#product{
+	box-shadow: 0px 0 30px 10px orange;
+	border-radius:15px;
+
+}
+main{
+	margin-top:5%;
+}
+	  .publications_title{
+		  padding-bottom:30px;
+	  }
+		body{
+        /* background-image: url(/img/frontend/home/banner-bg.png); */
+		/* background-color:#ec7c26!important; */
+		}
+		.navbar-brand {
+			color:#fff !important;
+		} 
+		.profile-photo {
+			width:48px;
+			height:auto;    
+		}
+		#profile{
+		border-radius: 50%;
+		}
+		.flex-menu {
+			display:flex;
+		}
+
+		.flex-menu li:not(:last-child) {
+			margin-right:40px;
+		}
+    .products{
+      margin-top:10%;
+	  margin-bottom:10%;
+    }
+	.box_main {
+		width: 30%;
+		background-color: #ffffff;
+		height: auto;
+		padding: 20px;
+		box-shadow: 0px 0 30px 10px #f0f0f0;
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.shirt_text {
+		width: 100%;
+		font-size: 20px;
+		color: #30302e;
+		text-align: center;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
+	.price_text {
+		width: 100%;
+		font-size: 16px;
+		color: #f26522;
+		text-align: center;
+		margin: 0px;
+	}
+	img{
+		width: inherit;
+	}
+	.tshirt_img {
+		width: 100%;
+		text-align: center;
+		margin: 50px 0px;
+		min-height: 370px;
+	}
+	.btn_main {
+		width: 100%;
+		display: flex;
+	}
+	
+	.buy_bt {
+		float: left;
+		width: 100%;
+	}
+	
+	.buy_bt a {
+		width: 100%;
+		font-size: 16px;
+		color: #f26522;
+		background-color: transparent;
+		text-align: right;
+		font-weight: bold;
+	}
+	
+	.buy_bt a:hover {
+		background-color: transparent;
+		color: #262626;
+	}
+	
+	.seemore_bt {
+		width: 100%;
+		float: right;
+		text-align: right;
+	}
+	
+	.seemore_bt a {
+		width: 100%;
+		font-size: 16px;
+		color: #262626;
+		background-color: transparent;
+		text-align: right;
+	}
+	
+	.seemore_bt a:hover {
+		background-color: transparent;
+		color: #f26522;
+	}
+
+	@media only screen and (max-width: 450px) {
+
+		#profile{
+			width: 35%;
+			border-radius: 50%;
+			text-align: center;
+			}
+			.box_main {
+				width: 95%;
+				background-color: #ffffff;
+				height: auto;
+				padding: 20px;
+				box-shadow: 0px 0 30px 10px #f0f0f0;
+				margin-bottom: 20px;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+	  }

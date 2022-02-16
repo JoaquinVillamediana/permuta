@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('frontend/layouts.app')
+@extends('frontend/layouts.header')
 
 @section('content')
 <div class="container">
@@ -12,7 +13,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -26,7 +27,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Contraseña') }}</label>
 
                             <div class="col-md-6">
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
@@ -70,4 +71,30 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    .card{
+        margin-top:35%;
+        background-color:transparent;
+        border-color:transparent;
+
+    }
+    .card-body{
+        /* margin-top:35%; */
+        border-color:transparent;
+    }
+    .card-header{
+        display:none!important;
+    }
+    label{
+        color:black;
+        font-size:20px!important;
+        font-weight:bold;
+    }
+    body{
+        background-image: url(/img/frontend/home/banner-bg.png);
+    }
+</style>
+@include('frontend/layouts.footer')
 @endsection
